@@ -1,0 +1,5 @@
+var isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+window.onload = function(){
+    if(isIE) document.body.innerHTML = '<div class="text-center login-header py-12 py-lg-13"><a href=index.html aria-label=Vartaani class="d-block ml-3 navbar-brand"name=Vartaani title=Vartaani><img alt=Vartaani class=img-fluid src="image/logo svg-blue.svg"style=width:130px></a></div><div class="login-box pb-lg-10"><div class=container><div class="col-lg-6 col-md-6 col-sm-8 mt-n10 mx-auto px-0"><div class="border-0 card login__box p-4 p-lg-4 p-md-4"><h1 class=text-center>Sorry</h1><span class="text-center mt-n2">This browser is currently not supported.</span><h6 class="text-center mt-4">Please use the latest version of <a href=https://www.google.com/chrome/browser/desktop/index.html>Chrome</a> or <a href=https://www.microsoft.com/en-us/edge>Edge</a>.</h6></div></div></div></div>';
+}
